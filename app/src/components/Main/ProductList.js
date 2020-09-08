@@ -103,19 +103,7 @@ const ProductList = [
         profit: 122,
         minPrice: 137,
         maxPrixe: 228
-    },{
-        id: 9,
-        star: starSvg,
-        reliase: 'Mar 2019',
-        manufacturer: 'Bitmain',
-        model: 'S9i',
-        hash: '10.5-14.5',
-        algorithm: 'SHA-256',
-        efficiency: '8.00',
-        profit: 122,
-        minPrice: 137,
-        maxPrixe: 228
-    },
+    }
 ];
 
 export default ProductList;
