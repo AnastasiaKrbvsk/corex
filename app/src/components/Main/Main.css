@@ -50,6 +50,34 @@
     width: 715px;
 }
 
+.products-list {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 14px;
+
+    font-family: "OpenSans", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    text-align: center;
+    color: #C4C4C4;
+}
+
+.table-head {
+    line-height: 33px;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.products-item:nth-child(2n) {
+    line-height: 40px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.products-item:nth-child(2n + 1) {
+    line-height: 40px;
+    background: rgba(255, 255, 255, 0.05);
+}
+
 .banner-wrapper {
     width: 211px;
 }
